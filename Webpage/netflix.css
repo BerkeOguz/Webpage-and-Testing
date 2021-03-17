@@ -1,0 +1,101 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: url(netflix_background.jpg) no-repeat;
+	background-color: #000;
+	color: #fff;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: sans-serif;
+}
+.container{
+	position: relative;
+	margin-top: 100px;
+	width: 450px;
+	height: 705px;
+	background-color: rgba(0,0,0,.75);
+	border-radius: 5px;
+}
+.label{
+	padding: 60px 60px;
+	font-size: 32px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.login_form{
+	padding: 10px 60px;
+}
+.login_form .font{
+	font-size: 18px;
+	color: #8c8c8c;
+	margin: 5px 0;
+}
+.login_form input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
+}
+.login_form .font2{
+	margin-top: 30px;
+}
+.login_form button{
+	margin: 45px 0 0px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #e50914;
+	border-radius: 3px;
+	border: 0px solid #3949AB;
+	transition: .5s;
+}
+.login_form button:hover{
+	background: #e50914;
+}
+.login_form #email_error,
+.login_form #pass_error{
+	margin-top: 0px;
+	width: 345px;
+	font-size: 18px;
+	color: #e87c03;
+	/**background: rgba(255,0,0,0.1)*/;
+	text-align: center;
+	padding: 6px 3px;
+	border-radius: 3px;
+	border: 0px solid #EF9A9A;
+	display:contents;
+}
+
+.sign-up_form{
+	padding: 0px 60px;
+}
+
+.sign-up_form button{
+	margin: 45px 0 0px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #292828;
+	border-radius: 3px;
+	border: 0px solid #3949AB;
+	transition: .5s;
+}
+.sign-up_form button:hover{
+	background: #e50914;
+}
+
